@@ -1,0 +1,102 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(100deg,#3142a1, #9706a7);
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    color: white;
+    font-size: 24pt;
+    margin: 0;
+  }
+  /* Barra de navegación */
+header {
+  background-color: black;
+  text-align: right;
+  padding: 10px;
+}
+
+nav button {
+  background-color: white;
+  border: none;
+  padding: 10px;
+  font-size: 10pt;
+  cursor: pointer;
+}
+
+nav button:hover {
+  background-color: black;
+  color: white;
+}
+  
+  /* Sección de la unidad */
+  .contenido-unidad {
+    background-color: white;
+    width: 60%;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;justify-content: ;
+  }
+  
+  .contenido-unidad h2 {
+    font-size: 18pt;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  /* Estilos de comentarios */
+  .comentarios {
+    margin-top: 20px;
+  }
+  
+  .comentario {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    margin-right: 20px;
+  }
+  
+  .perfil img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .perfil p {
+    font-size: 12pt;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .texto-comentario {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    align-items: center;justify-content: ;
+  }
+  
+  .texto-comentario p {
+    font-size: 12pt;
+    margin: 0;
+  }  

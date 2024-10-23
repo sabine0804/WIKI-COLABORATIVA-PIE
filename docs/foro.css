@@ -1,0 +1,88 @@
+/* Estilos generales */
+body {
+  font-family: 'HELVETICA', sans-serif;
+  background: linear-gradient(100deg,#3142a1, #9706a7);
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 24pt;
+  color: #000000;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Barra de navegación */
+header {
+  background-color: black;
+  text-align: right;
+  padding: 10px;
+}
+
+nav button {
+  background-color: white;
+  border: none;
+  padding: 10px;
+  font-size: 10pt;
+  cursor: pointer;
+}
+
+nav button:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Sección de dudas */
+.dudas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+textarea {
+  width: 60%;
+  height: 150px;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 12pt;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.publicar-duda {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 12pt;
+  cursor: pointer;
+}
+
+.publicar-duda:hover {
+  background-color: #ffffff;
+  color: black;
+}
+
+/* Sección de acciones */
+.acciones {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.acciones button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 12pt;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.acciones button:hover {
+  background-color: #ffffff;
+  color: black;
+}
